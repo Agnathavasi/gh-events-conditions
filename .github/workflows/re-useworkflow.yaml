@@ -2,7 +2,7 @@ name: Reuse workflow
 on: workflow_call
 jobs:
     deploy:
-        runs-on: ubuntu-lates
+        runs-on: ubuntu-latest
         steps:
             - name: Output Information
               run: echo "Deploying and Uploading"
